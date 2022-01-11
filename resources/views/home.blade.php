@@ -2,5 +2,14 @@
 
 
 @section('content')
-<h1>Home page</h1>
+@forelse ($movies as $movie)
+    <div class="movie">
+        <div class="title">{{$movie -> title}}</div>
+        <div class="original_title">{{$movie -> original_title}}</div>
+        <div class="date">{{$movie -> date}}</div>
+        <div class="vote">{{$movie -> vote}}</div>
+    </div>
+@empty
+    
+@endforelse
 @endsection
