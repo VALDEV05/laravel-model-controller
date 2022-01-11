@@ -7,7 +7,9 @@
         <title>Laravel</title>
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,800;1,600&display=swap" rel="stylesheet"> 
 
         <!-- Styles -->
         <link rel="stylesheet" href="{{asset('css/app.css')}}">

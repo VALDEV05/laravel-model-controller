@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  height: 100%;
+}
+
+.main_title {
+  font-family: "Cabin", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.col-4 {
+  width: 33.3333333333%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #5cdb95;
+  color: #05386B;
+}
+
+#site_header .nav,
+#site_footer .nav {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 50px;
+  text-align: center;
+}
+
+#site_main .movies_section {
+  background-color: #379683;
+  border-radius: 30px;
+}
+#site_main .movies_section .row {
+  width: 95%;
+  margin: auto;
+  padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#site_main .movies_section .row .movie_card {
+  height: 100px;
+  text-align: center;
+  border-radius: 30px;
+  margin: 10px;
+  background-color: #05386B;
+  color: #edf5e1;
+}
